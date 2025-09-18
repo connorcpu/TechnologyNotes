@@ -1,0 +1,8 @@
+X.Y = and
+X+Y = or
+\neg X = not
+x.(y+z) = x.y+x.z
+x+(y+z)=(x+y)+z
+x+x=x    x.x=x
+\overline(x+y) = \overline x . \overline y     \\also goes for .
+AB means A.B

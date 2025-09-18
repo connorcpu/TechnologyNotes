@@ -1,0 +1,25 @@
+calling convention
+
+6 registers are used for params (linux)
+	rdi
+	rsi
+	rdx
+	rcx	
+	r8	
+	r9
+	rest is pushed to stack
+callie: 
+	1. push return address
+	2. push stack base pointer
+	3. move current stackpointer to base pointer
+	4. convention is to then subtract from stack pointer to make space for local variables so they are always the same dist from the base pointer
+	5. do function
+	6. move stack pointer back
+	7. pop base pointer
+	8. pop return address
+
+	return variables are usually in RAX/EAX
+	15 bytes is max instruction set (includes instruction params)
+
+live programming:
+	

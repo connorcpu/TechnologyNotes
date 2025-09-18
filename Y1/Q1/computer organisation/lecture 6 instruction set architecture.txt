@@ -1,0 +1,3 @@
+cisc: complex instruction set computer
+risc: reduced instruction set computer
+flip-flop stores 1 bit, just a switch

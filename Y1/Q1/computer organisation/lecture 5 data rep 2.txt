@@ -1,0 +1,3 @@
+data rep: signed integer: excess-x
+interpret as unsigned number with offset x
+excess-2 just shift everything to the right by 2

@@ -1,0 +1,11 @@
+assighnment 1, 2 & 3 in week 6, explain code so don't yoink to much
+bonusses wee 7 except game that's week 8
+von Neumann is variables and data in the same adress space
+
+the stack:
+
+case december:
+case november:
+case 
+print("winter");
+break;

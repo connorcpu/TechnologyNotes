@@ -1,0 +1,4 @@
+main connective is last thing you do
+argument is the whole thing made from premises that leads to a conclusion
+an atom is a letter like P or Q
+
