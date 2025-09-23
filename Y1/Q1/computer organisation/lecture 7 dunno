@@ -1,0 +1,14 @@
+theres an TA CO bot on mattermost
+32 bit word means double word
+16 bit words, sign & magnitude
+4 bit opcode
+12 bit operand
+
+
+load 235
+mul A
+mul C
+store 235 
+load B
+mul B
+sub 235
