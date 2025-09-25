@@ -36,8 +36,12 @@ data rep:
    - S&M (sign and magnitude)
    - 1's compliment
    - 2's compliment 
-   - excess-2
+   - excess-2: when stored in excess you have too much, remove the excess to have to go back to normal: 7 in excess-2 has 2 to much so it's 5
+      - excess is always unsigned
    - IEEE-754
+      - [TODO: learn floating point multiplication]
+      - [TODO: look at floating point addition, should not be too hard, multiplication should be super simple]
+      - to subtract, flip second mantisa, sign bit become whatever bigger exponent had [TODO verify this]
 
 ## notes
 - NOT FORMATIVE 
