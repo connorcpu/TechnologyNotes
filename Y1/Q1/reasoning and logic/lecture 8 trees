@@ -1,0 +1,7 @@
+nodes count as their own decendents be carefull of that during midterms
+trees are usefull
+maths can be done with trees
+
+for N > 1
+d_n = n for n <= 4
+d_n = D_n-1 * D_n-2 * D_n-3
