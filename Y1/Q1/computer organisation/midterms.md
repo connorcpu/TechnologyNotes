@@ -20,10 +20,10 @@ assembly:
    - address line (what location we want, can be used to write to memory mapped devices)
    - data line (just carries the actual data)
 - addressing types:
-   - immediate
-   - direct 
-   - register 
-   - indirect register [TODO: understand what the fuck he means here]
+   - immediate: value (mov $25, %rax)
+   - direct: m(val/loc) (location: .byte 42; mov location, %rbx (dereference pointer))
+   - register: [reg] (mov %rax, %rbx)
+   - indirect register: m([reg]) (mov (%rbx), %rax)
 - port mapping: [TODO: find out what exactly you are mapping]
    - cons: you need special instructions and ways of addressing
    - depricated
@@ -47,3 +47,12 @@ data rep:
 - NOT FORMATIVE 
 - IF YOU WANT CHRISTMASBREAK DONT FUCK UP MIDTERMS
 - 32 bit word means double word, 64 bit word means quad word
+
+todo:
+   - FILE IS UNFINISHED
+   - check old exams
+   - finish file 
+   - check book 
+   - check self study
+   - check the slides
+   - learn logic circuit icons
