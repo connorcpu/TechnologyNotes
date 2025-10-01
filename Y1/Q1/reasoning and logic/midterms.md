@@ -41,7 +41,9 @@ proofs
 - hall 3 in X
 - 9:00
 - for some courses you get to take the questions home
+- learn karnau-maps
 - FILE IS UNFINISHED, CONSULT:
-   - skill circuit
    - brightspace slides
+   - check old tests
    - book
+   - skill circuit
