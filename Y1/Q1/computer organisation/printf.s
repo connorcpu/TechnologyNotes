@@ -1,22 +1,22 @@
 
 
 .section .data
-
+.space buffer 256
 
 .section .text
 my_printf:
-push %rbp
-mov rsp, %rbp
-//not a fan of doing it this way but ig it works best here
-sub $32, %rsp 
-lea 16(%rbp), %r13
+   push %rbp
+   mov %rsp, %rbp
+   //not a fan of doing it this way but ig it works best here
+   sub $32, %rsp 
+   lea 16(%rbp), %r13
 # store arguments to be used by getNextArg
-mov %rsi, -8(%rbp)
-mov %rdx, -16(%rbp)
-mov %rcx, -24(%rbp)
-mov %r8, -32(%rbp)
-mov %r9, -40(%rbp)
-xor %r14, %r14
+   mov %rsi, -8(%rbp)
+   mov %rdx, -16(%rbp)
+   mov %rcx, -24(%rbp)
+   mov %r8, -32(%rbp)
+   mov %r9, -40(%rbp)
+   xor %r14, %r14
 
 #loop through string
    .jmpLabel:
@@ -26,15 +26,15 @@ xor %r14, %r14
 //index %rcx into string
    mov (%r11, %rcx, 1), %rax
    cmpb %al, '%'
-   je percentage
+   je .percentage
    movb (%rdi, %rcx, 1), %dil
    call putchar
    
    inc %rcx
    mov (%r11, %rcx, 1), %r15
-   cmpb %r15b, $0x00
-   je done
-   jmp jmpLabel
+   cmpb $0x00, %r15b
+   je .done
+   jmp .jmpLabel
 
    .done:
    ret
@@ -44,26 +44,26 @@ xor %r14, %r14
    #if it's % do everysingle case, (puts, i2a, u2a, %)
    .percentage:
    inc %rcx
-   cmp (%r11, %rcx, 1), $'%'
-   je percentageChar
+   cmpb $'%', (%r11, %rcx, 1)
+   je .percentageChar
 
-   cmp (%r11, %rcx, 1), $'u'
-   je unsigned
+   cmpb $'u', (%r11, %rcx, 1)
+   je .unsigned
 
-   cmp (%r11, %rcx, 1), $'i'
-   je signed
+   cmpb $'i', (%r11, %rcx, 1)
+   je .signed
 
-   cmp (%r11, %rcx, 1), $'s'
-   je string 
+   cmpb $'s', (%r11, %rcx, 1)
+   je .string 
 
    inc %rcx
-   jmp jmpLabel
+   jmp .jmpLabel
    
    .percentageChar:
    mov $'%', %rdi
    call putchar
    inc %rcx
-   jmp jmpLabel
+   jmp .jmpLabel
 
    .unsigned:
    call getNextArg
@@ -73,7 +73,7 @@ xor %r14, %r14
    call puts
 
    inc %rcx
-   jmp jmpLabel
+   jmp .jmpLabel
 
    .signed:
    call getNextArg
@@ -83,7 +83,7 @@ xor %r14, %r14
    call puts
 
    inc %rcx
-   jmp jmpLabel
+   jmp .jmpLabel
 
    .string:
    call getNextArg
@@ -91,7 +91,7 @@ xor %r14, %r14
    call puts
 
    inc %rcx 
-   jmp jmpLabel
+   jmp .jmpLabel
    
 puts:
    push %rbp
@@ -105,8 +105,8 @@ puts:
    call putchar
    pop %rdi
    inc %rcx
-   cmpb (%rdi, %rcx, 1), $0x0
-   je putsLabel
+   cmpb $0x00, (%rdi, %rcx, 1)
+   je .putsLabel
 
    pop %rcx
    pop %rbp
@@ -139,3 +139,44 @@ getNextArg:
    inc %r14
    mov (%r13, %r14, 8), %rax
    ret
+
+i2a:
+   push %rbp
+   mov %rsp, %rbp
+   
+   cmp $0, (%rdi)
+   je .zero
+   xor %cl, %cl
+
+.i2aloop:
+   mov $10, %rcx
+   mov %rdi, %rax
+   div %rcx
+   add $'0', %rdx
+   movb %dl, (buffer, %cl, 1)
+
+   mov %rax, %rdi
+
+   inc %cl
+   cmpb $0, %cl
+   jne .i2aloop
+
+   pop %rbp
+   ret
+
+u2a:
+   push %rbp
+   mov %rsp, %rbp
+
+   cmp $0, (%rdi)
+   je .zero
+
+   pop %rbp
+   ret
+
+.zero:
+   mov $0, rax
+   pop %rbp
+   ret
+
+
