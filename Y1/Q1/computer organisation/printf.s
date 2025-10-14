@@ -1,9 +1,25 @@
 
-
 .section .data
-.space buffer 256
+teststr: .asciz "my name is %s and i think i got an %i for my exam, test %r, also does %% work?"
+name: .asciz "connor"
+
+.section .bss
+buffer: .space 256
 
 .section .text
+
+main:
+   push %rbp
+   mov %rsp, %rbp
+
+   mov teststr, %rdi
+   mov name, %rsi
+   mov $5, %rdx
+   call my_printf
+
+   pop %rbp
+   ret
+
 my_printf:
    push %rbp
    mov %rsp, %rbp
@@ -144,7 +160,7 @@ i2a:
    push %rbp
    mov %rsp, %rbp
    
-   cmp $0, (%rdi)
+   cmp $0, %rdi
    je .zero
    xor %cl, %cl
 
@@ -153,13 +169,16 @@ i2a:
    mov %rdi, %rax
    div %rcx
    add $'0', %rdx
-   movb %dl, (buffer, %cl, 1)
+   mov buffer, %r12
+   mov %dl, (%r12, %cl, 1)
 
    mov %rax, %rdi
 
    inc %cl
    cmpb $0, %cl
    jne .i2aloop
+
+   mov buffer, %rax
 
    pop %rbp
    ret
