@@ -9,7 +9,9 @@ r8v: .skip 8
 r9v: .skip 8
 
 .section .data
-teststr: .asciz "my name is %s and i think i got an %d for my exam, test %r, also does %% work?"
+teststr: .asciz "my name is %s and i think i got an %d for my exam, test %r, also does %% work? "
+test2: .asciz "I wanna try the negative number %d, and the unsigned number %u, also bla bla"
+test3: .asciz " In adition i'd like to try this: %d, %d, %d, %u, %u, %u, %s %% :) (hopefully)"
 //teststr: .string "my name is %s and i think i got an %i for my exam, test %r, also does %% work?"
 //teststr: .asciz "hello world\n"
 name: .asciz "connor"
@@ -20,10 +22,32 @@ name: .asciz "connor"
 main:
    push %rbp
    mov %rsp, %rsp
+
+   //test 1
    leaq teststr, %rdi
    leaq name, %rsi
    mov $5, %rdx
    call my_printf
+
+   //test 2
+   leaq test2, %rdi
+   mov $-300, %rsi 
+   mov $1300, %rdx 
+   call my_printf
+
+   //test 3
+   leaq test3, %rdi 
+   mov $-257, %rsi 
+   mov $513, %rdx 
+   mov $-1025, %rcx 
+   mov $2049, %r8 
+   mov $4097, %r9
+   leaq name, %rax
+   push %rax 
+   push $8194
+
+   call my_printf
+
 
    pop %rbp
    
@@ -45,7 +69,7 @@ my_printf:
    mov %r9, -40(%rbp) */
 
    //funcy shit
-   mov 8(%rbp), %r13
+   lea 16(%rbp), %r13
 
    mov %rsi, rsiv
    mov %rdx, rdxv
@@ -143,8 +167,10 @@ puts:
    movb (%r11, %rcx, 1), %dil
    call putchar
    inc %rcx
-   cmpb $0x00, (%rdi, %rcx, 1)
-   je .putsLabel
+   movb (%r11, %rcx, 1), %dil
+   //cmpb $0x00, (%r11, %rcx, 1)
+   cmpb $0, %dil
+   jne .putsLabel
 
    pop %r11
    pop %rdi
@@ -208,6 +234,8 @@ getNextArg:
    mov (%rax), %rax
    add $5, %r14
 
+   jmp .doneNext
+
 
 .rsil:
    mov rsiv, %rax
@@ -256,6 +284,13 @@ u2a:
    mov %rsp, %rbp
    push %rdx
    push %rbx
+
+   //reset buffer to empty
+   mov $buffer, %rsi 
+   movq $0, (%rsi) 
+   movq $0, 8(%rsi) 
+   movq $0, 16(%rsi) 
+   movq $0, 24(%rsi) 
 
    //yada yada, algorithm must run backwards so but backwards in the buffer, print forwards
    mov %rdi, %rax
