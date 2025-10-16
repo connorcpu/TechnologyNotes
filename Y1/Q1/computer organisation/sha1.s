@@ -3,7 +3,7 @@
 
 .section .bss
 a: .skip 4
-b: .skip 4
+b: .skip 2
 c: .skip 4
 d: .skip 4
 e: .skip 4
@@ -131,7 +131,7 @@ _sub20:
    
    //upload
    mov %ebx, (f)
-   movl $0x5a827999, (k)
+   movl $ii0x5a827999, (k)
    jmp common
 
    //subtract 40, means i was between 0 and 39 (but 0-19 was already filtered out)
