@@ -10,18 +10,20 @@ r9v: .skip 8
 
 .section .data
 teststr: .asciz "my name is %s and i think i got an %d for my exam, test %r, also does %% work? "
-test2: .asciz "I wanna try the negative number %d, and the unsigned number %u, also bla bla"
-test3: .asciz " In adition i'd like to try this: %d, %d, %d, %u, %u, %u, %s %% :) (hopefully)"
+test2: .asciz "I wanna try the negative number %d, and the unsigned number %u."
+test3: .asciz " In adition i'd like to try this: %d, %d, %d, %u, %u, %u, %s %%%% :) (hopefully)."
+test4: .asciz "2 to the power of 64: %u, %u, %s %s %d %d %u %s."
 //teststr: .string "my name is %s and i think i got an %i for my exam, test %r, also does %% work?"
 //teststr: .asciz "hello world\n"
 name: .asciz "connor"
-
+testsubstr: .asciz "aoetuhnsaoeuhtns"
+dominic: .asciz "dominic"
 
 .section .text
 
 main:
    push %rbp
-   mov %rsp, %rsp
+   mov %rsp, %rbp
 
    //test 1
    leaq teststr, %rdi
@@ -39,7 +41,7 @@ main:
    leaq test3, %rdi 
    mov $-257, %rsi 
    mov $513, %rdx 
-   mov $-1025, %rcx 
+   mov $-9223372036854775808, %rcx 
    mov $2049, %r8 
    mov $4097, %r9
    leaq name, %rax
@@ -48,7 +50,27 @@ main:
 
    call my_printf
 
+  // pop %rax
+  // pop %rax
 
+   leaq test4, %rdi
+   mov $18446744073709551615, %rsi
+   mov $-5, %rdx
+   leaq testsubstr, %rcx 
+   leaq name, %r8
+   mov $0, %r9
+   leaq dominic, %rax
+   push %rax
+   pushq $-1
+   pushq $0
+
+   call my_printf
+
+  /* pop %rax
+   pop %rax
+   pop %rax*/
+
+   movq %rbp, %rsp
    pop %rbp
    
    mov $60, %rax
@@ -58,6 +80,11 @@ main:
 my_printf:
    push %rbp
    mov %rsp, %rbp
+   push %r12
+   push %r13
+   push %r14
+   push %r15
+
    //not a fan of doing it this way but ig it works best here
  /*  sub $32, %rsp 
    lea 16(%rbp), %r13
@@ -82,22 +109,34 @@ my_printf:
 #loop through string
    xor %rcx, %rcx
    //%rdi is string pointer 
-   mov %rdi, %r11
+   mov %rdi, %r12
    .jmpLabel:
 //index %rcx into string
-   mov (%r11, %rcx, 1), %rax
+   mov (%r12, %rcx, 1), %rax
    cmpb $'%', %al
    je .percentage
-   movb (%r11, %rcx, 1), %dil
+   movb (%r12, %rcx, 1), %dil
+   push %rcx
+   push %rax
    call putchar
+   pop %rax
+   pop %rcx
+
    
    inc %rcx
-   mov (%r11, %rcx, 1), %r15
+   mov (%r12, %rcx, 1), %r15
    cmpb $0x00, %r15b
    je .done
    jmp .jmpLabel
 
    .done:
+
+   pop %r15 
+   pop %r14 
+   pop %r13
+   pop %r12
+
+   movq %rbp, %rsp
    pop %rbp
    ret
    
@@ -106,50 +145,91 @@ my_printf:
    #if it's % do everysingle case, (puts, i2a, u2a, %)
    .percentage:
    inc %rcx
-   cmpb $'%', (%r11, %rcx, 1)
+   cmpb $'%', (%r12, %rcx, 1)
    je .percentageChar
 
-   cmpb $'u', (%r11, %rcx, 1)
+   cmpb $'u', (%r12, %rcx, 1)
    je .unsigned
 
-   cmpb $'d', (%r11, %rcx, 1)
+   cmpb $'d', (%r12, %rcx, 1)
    je .signed
 
-   cmpb $'s', (%r11, %rcx, 1)
+   cmpb $'s', (%r12, %rcx, 1)
    je .string 
 
-   mov (%r11, %rcx, 1), %rdi
+   mov (%r12, %rcx, 1), %rdi
+
+   push %rcx 
+   push %rax
    call putchar
+   pop %rax 
+   pop %rcx
 
    inc %rcx
    jmp .jmpLabel
    
    .percentageChar:
    mov $'%', %rdi
+
+   push %rax 
+   push %rcx 
    call putchar
+   pop %rcx 
+   pop %rax 
+
    inc %rcx
    jmp .jmpLabel
 
    .unsigned:
+   mov %r13, %rdi 
+   mov %r14, %rsi
+
    call getNextArg
+
+   inc %r14
    mov %rax, %rdi
+   push %rdx 
+   push %rsi 
+   push %rax
+   push %rax
    call u2a
+   pop %rdx 
+   pop %rsi 
+   pop %rax 
+   pop %rax
 
    inc %rcx
    jmp .jmpLabel
 
    .signed:
+   mov %r13, %rdi 
+   mov %r14, %rsi
    call getNextArg
+   inc %r14
    mov %rax, %rdi
+
+   push %rax
+   push %rax
    call i2a
+   pop %rax
+   pop %rax
 
    inc %rcx
    jmp .jmpLabel
 
    .string:
+   mov %r13, %rdi 
+   mov %r14, %rsi
+
    call getNextArg
+
+   inc %r14
    mov %rax, %rdi
+   push %rax
+   push %rcx 
    call puts
+   pop %rcx 
+   pop %rax
 
    inc %rcx 
    jmp .jmpLabel
@@ -157,36 +237,35 @@ my_printf:
 puts:
    push %rbp
    mov %rsp, %rbp
-   push %rcx
-   push %rdi
-   push %r11
+   push %r12
+   push %r12
    
-   mov %rdi, %r11
+   mov %rdi, %r12
    xor %rcx, %rcx
    .putsLabel:
-   movb (%r11, %rcx, 1), %dil
+   movb (%r12, %rcx, 1), %dil
+   push %rax 
+   push %rcx
    call putchar
+   pop %rcx 
+   pop %rax
+
    inc %rcx
-   movb (%r11, %rcx, 1), %dil
-   //cmpb $0x00, (%r11, %rcx, 1)
+   movb (%r12, %rcx, 1), %dil
+   //cmpb $0x00, (%r12, %rcx, 1)
    cmpb $0, %dil
    jne .putsLabel
 
-   pop %r11
-   pop %rdi
-   pop %rcx
+   pop %r12
+   pop %r12
+   movq %rbp, %rsp
    pop %rbp
    ret
 
 putchar:
    push %rbp
    mov %rsp, %rbp
-   push %rdi
-   push %rsi
-   push %rax
-   push %rdx
-   push %rcx
-   push %r11
+   push %r12
    
    push %rdi
    mov %rsp, %rsi
@@ -199,19 +278,21 @@ putchar:
 
    pop %rdi
 
-   pop %r11
-   pop %rcx
-   pop %rdx
-   pop %rax
-   pop %rsi
-   pop %rdi
+   pop %r12
 
+   movq %rbp, %rsp
    pop %rbp
    ret
 
 getNextArg:
    push %rbp
    mov %rsp, %rbp
+
+   push %r13
+   push %r14
+
+   mov %rdi, %r13
+   mov %rsi, %r14
    
    cmp $0, %r14
    je .rsil
@@ -254,8 +335,11 @@ getNextArg:
    jmp .doneNext
 
 .doneNext:
-   inc %r14
 
+   pop %r14
+   pop %r13
+
+   movq %rbp, %rsp
    pop %rbp
    ret
 
@@ -269,20 +353,32 @@ i2a:
    neg %rax 
    push %rax
    mov $'-', %rdi
+   push %rcx 
    call putchar
+   pop %rcx
+
    pop %rax
 
 .positive:
    mov %rax, %rdi
+   push %rdx 
+   push %rsi 
+   push %rax
+   push %rax
    call u2a
+   pop %rdx 
+   pop %rsi 
+   pop %rax 
+   pop %rax
 
+   movq %rbp, %rsp
    pop %rbp
    ret
    
 u2a:
    push %rbp
    mov %rsp, %rbp
-   push %rdx
+   push %rbx
    push %rbx
 
    //reset buffer to empty
@@ -306,10 +402,17 @@ u2a:
    test %rax, %rax #is there more in rax
    jnz .u2aloop
    mov %rsi, %rdi #absolute genius this line, fuck the start of the buffer, just leave poiner at start of digits, magnificent
+   
+
+   push %rax
+   push %rcx
    call puts
+   pop %rcx 
+   pop %rax
 
 
    pop %rbx
-   pop %rdx
+   pop %rbx
+   movq %rbp, %rsp
    pop %rbp
    ret
