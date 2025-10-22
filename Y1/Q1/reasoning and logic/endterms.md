@@ -1,0 +1,7 @@
+- [ ] learn diff between strong, weak and structural induction
+   - strong: no more dominoes, assume p() is true for 0 to k, then using that prove p(k+1), this proves every number individually
+   - weak: regular induction 
+   - structural: generic induction on any recursivly definened set
+- [ ] check midterm grading with awnsers
+- [ ] check skillcircuit
+- [ ] do quadruple quest|

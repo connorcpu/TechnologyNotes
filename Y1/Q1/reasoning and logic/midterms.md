@@ -47,3 +47,20 @@ proofs
    - check old tests
    - book
    - skill circuit
+
+
+## test checkings:
+1. learn what fucking sufficient means ya idiot
+2. learn what a formal definition is (tarski's world) and USE THAT WHEN THEY ASK FOR IT
+3. BRUH, counter examples need you to have both examples true :facepalm:
+4. don't forget domain
+5. learn to use arbitrairy shit
+6. while you're at it, formal proofs
+7. revisit 5B
+8. tree nodes are their own decendents ASNCOHSNAHOUSNAOHEUCEAOUHEOUHC
+
+
+
+
+
+
