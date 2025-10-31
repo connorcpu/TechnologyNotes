@@ -1,0 +1,42 @@
+- R&L
+   - how to write proofs
+   - check if i have all the material
+   - practice exam
+      - start with some basic propositional stuff
+      - some slightly more complex predicate stuff with tarski's worlds
+         - formal structures define predicates as a set of tuples for which they are tru<Up>
+      - structural induction proof
+      - invarient puzzle
+      - recursive sets
+      - set theory
+      - trees
+      - (directed) graphs
+      - infinities (to prove countable, maps an index in $\N$ to every option 
+      - look at:
+         - 8B
+         - 10.{A,B}
+         - which one is injection vs surjective 
+- CO 
+   - check if i have all the material
+   - check self study answers
+   - practice exams 
+- IP
+   - learn javadoc
+      - /** to start, * on every line, */ to end
+      - start with a description (just write it no need to be weird)
+      - then block tags such as @param and @return
+   - learn unit testing
+      - use @Test 
+      - use assertEquals to check if 2 objects or values are equal, uses object 1's equals method 
+      - assertNotEquals, assertFalse, assertNull, just check the junit javadoc
+   - learn functional
+      - 
+   - look at other I/O things
+   - learn equals methods
+      - default equals looks at memory addresses
+      - don't use instanceof as it is not symetric 
+      1. check if (o == this)
+      2. checkf if (o != null and this.getClass == o.getClass)
+      3. cast object to the current class, call objects.equals(this.var1, that.var1) (compare all vars using Objects.equals)
+      4. super.equals?
+   - practice (array lengths) (abstract classes)
