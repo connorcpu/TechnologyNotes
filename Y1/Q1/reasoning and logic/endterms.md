@@ -5,3 +5,4 @@
 - [ ] check midterm grading with awnsers
 - [ ] check skillcircuit
 - [ ] do quadruple quest|
+- [ ] look at set builder notation $|\{x | Book(x) \land In(x,h)\}| > 1000$ (there are more than a 1000 books in h
