@@ -30,8 +30,17 @@
       - use assertEquals to check if 2 objects or values are equal, uses object 1's equals method 
       - assertNotEquals, assertFalse, assertNull, just check the junit javadoc
    - learn functional
-      - 
+      - imparative is python
+      - functional is haskal
+         - don't do state or mutations
+         - always same output for given input
+         - use generic "Function<Integer, Integer>" for function type declaration, means 1 int in, 1 int out
+         - use generic "Predicate<Integer>" for function that returns boolean
+         - hmmmmm
+      - oop is java 
+      - declarative is desmos:
    - look at other I/O things
+      - should be good since javadoc but time
    - learn equals methods
       - default equals looks at memory addresses
       - don't use instanceof as it is not symetric 
