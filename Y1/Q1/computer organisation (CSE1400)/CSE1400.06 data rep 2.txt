@@ -1,0 +1,43 @@
+data rep: signed integer: excess-x
+interpret as unsigned number with offset x
+excess-2 just shift everything to the right by 2
+
+# types
+
+## sign & magnitde
+this is the simple "reserve 1 bit for sign"
+
+## 1's compliment
+"if negative, flip bits"
+### operations
+additions you can just add both normally blindly.   
+carefull tho, overflow get _added_ to LSB
+
+## 2's compliment 
+"if negative, flip bits, then add 1"
+### operations
+addition is super easy, just add both blindly. If theres overflow, discard.     
+subtraction is just adding a negative number.
+
+## BCD 
+## excess-x 
+## fixed point decimal
+just state how many bits represent the integer and how many the fractional part.
+carefull, fractional part is $1 \over 2^x$ where x is the amount available bits
+this is done by assigning the positions negative exponents:
+
+$2^3$ | $2^2$ | $2^1$ | $2^0$ | $2^{-1}$ | $2^{-2}$ | $2^{-3}$
+------|-------|-------|-------|----------|----------|--------
+8     | 4     | 2     | 1     |$\frac 1 2$|$\frac 1 4$|$\frac 1 8$ 
+
+formula: 
+$(-1)^s \times m \times 2^e$
+- s is sign bit 
+- m has in implicid 1. fractional fixed decimal point infront
+- e usually in excess-127
+
+
+## floating point
+
+
+
