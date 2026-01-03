@@ -1,0 +1,38 @@
+- stefan
+   - yay
+   - go to Q&A
+   - monday 12:45 to 14:45 (meetingroom 1.3 of low-rise B36 (EEMCS))
+      - https://bit.ly/ac-bsc-cse
+   - unenroll when?:
+      - 15EC? keep it up
+      - 10CE? need to scale up, you cannot fail 1 course per quarter
+      - 0-5?  very likely to fail BSA, seek advise from mentor, academic councelors, friends and fam
+   - do ADS formative midterms
+- BSA 
+   - if you fail it, what are you gonna do differently??
+   - :sleeping:
+   - unenroll before jan 31 if you are not gonna make it, you will not have Q2 results, should have Q1 resits; don't have to redo CST
+- survey
+- past quarter
+   - scores
+      - 50% 15 EC
+      - 23% 10 EC
+- next quarter
+   - exam week:
+      - Q3 exams, does not fit in 1 week, make sure you haven't booked vacation on your exam; as a first year everything should be fine.
+      - ADS is hard
+- varients will get pitches
+- holidays
+   - board games in FLUX-A 13:45-17:30 dec 19, everyone is welcome, bring your own games
+- R&L funny stuff:
+   - quotes:
+      - coati erat demonstrandum
+      - BAM! it's true
+      - "yeah that's all i got" & "just trust me mate"
+      - falsity of the guard: "time is linear and death is unavoidable"
+      - "if i am wet then it doesn't necessarily mean it is raining"
+   - contradictions:
+      - "santa exists"
+      - "stefan hates coatis"
+   - art submissions:
+      - silksong art
