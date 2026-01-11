@@ -58,3 +58,21 @@
 9. WHAT WERE YOU SMOKING, reducing something from 12 cycles to 2 is A 6X SPEEDUP YOU DUNCE
 10. when they say they want to "memory map" a space and ask how many bits we need for virtual addresses THEY ONLY WANT HOW MANY BITS THEY WOULD NEED TO INDEX ALL THE PAGES
 11. (blank) learn SRAM vs DRAM
+
+
+things to practice:
+1. karnaugh maps
+2. i/o (daisy chaining)
+3. memory chip select
+4. (s/m)i(s/m)d 
+5. acces types (immediate/direct/register/inderect register)
+6. SRAM electronic wiring
+7. von neuman
+8. look at BPU again
+9. parallel fromula ($t_p = t_s \times (f_s + \frac {f_p}{p}$)
+10. look at mantissa formule and fixed point binairy fractions ($(-1)^s \times 2^{e-127} \times m$)
+   - where s is sign bit
+   - e is exponent in excess 127
+   - m is mantissa with implicit 1. prepended, highest bit is $2^{-1}$, second is $2^{-2}$
+11. learn how to operate on 2's compliment
+12. 
