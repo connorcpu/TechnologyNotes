@@ -61,18 +61,28 @@
 
 
 things to practice:
-1. karnaugh maps
-2. i/o (daisy chaining)
-3. memory chip select
-4. (s/m)i(s/m)d 
-5. acces types (immediate/direct/register/inderect register)
-6. SRAM electronic wiring
-7. von neuman
-8. look at BPU again
-9. parallel fromula ($t_p = t_s \times (f_s + \frac {f_p}{p}$)
-10. look at mantissa formule and fixed point binairy fractions ($(-1)^s \times 2^{e-127} \times m$)
+1. [X] karnaugh maps
+2. [X] i/o (daisy chaining)
+   - grant-processing time is cumulative when daisy-chaining
+4. [X] memory chip select
+   - on interleaved, putting bank at the end makes sequential access faster
+   - put some regular address bits after bank bits so that it alligns with row output for even faster
+6. [X] (s/m)i(s/m)d 
+7. [X] acces types (immediate/direct/register/inderect register)
+8. [X] SRAM electronic wiring
+9. von neuman
+10. [X] look at BPU again
+11. [X] parallel fromula ($t_p = t_s \times (f_s + \frac {f_p}{p}$)
+12. [X]  look at mantissa formule and fixed point binairy fractions ($(-1)^s \times 2^{e-127} \times m$)
    - where s is sign bit
    - e is exponent in excess 127
    - m is mantissa with implicit 1. prepended, highest bit is $2^{-1}$, second is $2^{-2}$
-11. learn how to operate on 2's compliment
-12. 
+   - just shift fixed point by e
+13. [X] learn how to operate on 2's compliment
+   - add normally, discard carry out
+   - subtraction is just negative addition
+14. [X] memory organisation
+   - theres a CS bit
+   - theres a pwr bit 
+   - theres a gnd bit
+   - theres a r/w bit
