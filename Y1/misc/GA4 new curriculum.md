@@ -1,0 +1,49 @@
+- new curriculum
+- the whole fucking gang is here
+   - stefan
+   - lofi
+   - thomas
+   - ivo? seems to be leaving; he left :(
+- relavent for year 1 and 2
+- lofi lost the microphone battle and has to talk into the catchbox
+- new program to accomodate changes in the field
+- embracing the concept of 'the TUDelft engineer' to set themselves apart
+   - wider view on society
+- maybe get hybrid lectures
+- maybe get new lectures
+- new curriculum
+   - maybe we get different electives
+   - resits of courses that are gone still give exams
+      - or you can choose to do a new course instead, theres a table which course can replace what
+   - buss-words
+   - electives (pick 5)
+      - functional programming
+      - quantum (might be cool, might be hard)
+      - computer graphics (heard it's a lot of math but i'm interested)
+      - big data processing
+      - embedded software
+      - AI-augmented software engineering
+      - AI for information access 
+      - deep learing en generative AI
+      - signal & info processing
+      - automated reasoning and negotiation
+      - modern comunication systems
+      - bioinformatics
+      - they are looking into getting some other faculties to provide electives
+      - some electives cannot be taken in the same year
+      - we get new electives
+      - we can take computer security
+- aspiration week
+   - open to all years
+   - explore what is out in the field
+   - future courses
+   - social activities
+   - company's
+- SP bootcamp
+   - prepare for the software project
+- RP bootcamp
+   - prepare for the research project
+- from sept 2030 onwards there is no hybrid stuff, they will pretend there was no old curriculum
+   - any credits you got on the old curriculum that don't have a new curriculum counterpart won't count anymore
+- if you wanna be TA, just apply, good luck lecturer decides, for the first edition they will probably take master students
+

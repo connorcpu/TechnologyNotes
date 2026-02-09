@@ -1,0 +1,36 @@
+- limits
+- derivatives
+   - linearization
+   - extreme values
+   - implicit differentiation
+   - newtons method
+   - l'hospital
+   - 3D derivation
+      - partial derivation 
+      - planerisation 
+      - 'the chain rule' (?) 
+      - directional derivative
+- integration
+   - substitution rule (reverse chain)
+   - integration by parts (reverse product rule)
+   - impropper integrals
+   - 3D integration
+      - over rectangle
+      - over general region
+- series
+   - alternating series 
+   - tests
+      - comparison test 
+      - integral test 
+      - alternating test
+      - ratio test 
+   - power series 
+      - functions as power series 
+      - taylor series 
+         - taylor polynomials
+- complex numbers
+   - eulers identity
+
+## stuff to memorize
+- derivatives of inverse trigonometric functions
+- $a^2 - b^2 = (a-b)(a+b)$
