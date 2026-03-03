@@ -1,10 +1,10 @@
 - limits
+   - l'hospital (LIMITS ONLY, NOT SERIES)
 - derivatives
    - linearization
    - extreme values
    - implicit differentiation
    - newtons method
-   - l'hospital
    - 3D derivation
       - partial derivation 
       - planerisation 
