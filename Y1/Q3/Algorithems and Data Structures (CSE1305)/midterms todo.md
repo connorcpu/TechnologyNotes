@@ -1,15 +1,27 @@
 - amortized time complexity
+   - used for infrequent expensive operations
+   - roughly devide the cost over the different operations
 - O(N) vs Omega(N) vs Theta(N)
+   - O(N) means at most (worst case) linear
+   - Omega (N) means algorithm takes at least (best case) linear
+   - theta (N) algorithm takes linear
 - 'tightest bound'
+   - O = upperbound
+   - Omega = lower bound
+   - Theta = thightest bound
 - tail recursion optimization
+   - don't put stuff after the recursive call
 - look at the sorting algorithems
    - selection sort 
    - insertion sort (in-place)
    - heap sort
 - java iterators
-- heap
-- array representation of a tree/heap
+   - lazy
+   - something
+- [X] heap
+- [X] array representation of a tree/heap
 - gausion sum
+   - $\sum_{k=1}^n = {n(n+1) \over 2}
 - base equations (instead of recurrance)
 - closed form of recurrance equation
 - bigocheatsheet.com
