@@ -1,0 +1,15 @@
+- amortized time complexity
+- O(N) vs Omega(N) vs Theta(N)
+- 'tightest bound'
+- tail recursion optimization
+- look at the sorting algorithems
+   - selection sort 
+   - insertion sort (in-place)
+   - heap sort
+- java iterators
+- heap
+- array representation of a tree/heap
+- gausion sum
+- base equations (instead of recurrance)
+- closed form of recurrance equation
+- bigocheatsheet.com

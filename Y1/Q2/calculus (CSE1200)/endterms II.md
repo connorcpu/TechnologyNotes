@@ -34,3 +34,4 @@
 ## stuff to memorize
 - derivatives of inverse trigonometric functions
 - $a^2 - b^2 = (a-b)(a+b)$
+- $(1+{1 \over n} )^n = e$
