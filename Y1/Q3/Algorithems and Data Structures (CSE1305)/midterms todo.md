@@ -13,15 +13,24 @@
    - don't put stuff after the recursive call
 - look at the sorting algorithems
    - selection sort 
+      - pick the lowest of the unsorted portion: o(n^2)
    - insertion sort (in-place)
+      - pick the next of the unsorted portion, insert it
    - heap sort
+      - put into heap, fix heap (priority queue) o(n log (n)) 
 - java iterators
    - lazy
    - something
 - [X] heap
 - [X] array representation of a tree/heap
+   - to bubble op or sift up, just swap the element until it is in the correct possition
+   - to bubble down or sift down just swap the element until it is correct 
+   - to remove, swapt root with last element, then sift down 
+   - to add, add to end, then bubble up
+   - to turn unsorted array into heap: ignore leaf nodes, there are always n/2 leaf nodes at the end of the array; for every non-leaf node, fix the heap, then for its children fix the heap if they aren't leafs
 - gausion sum
    - $\sum_{k=1}^n = {n(n+1) \over 2}
 - base equations (instead of recurrance)
 - closed form of recurrance equation
+   - THE BOTH OF THESE WAT DU FUCK
 - bigocheatsheet.com
