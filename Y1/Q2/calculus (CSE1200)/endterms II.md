@@ -1,5 +1,4 @@
-# to do
-- limits
+# to do - limits
    - l'hospital (LIMITS ONLY, NOT SERIES)
 - derivatives
    - linearization
@@ -84,3 +83,6 @@
    
    
    \end{align}
+   # todo
+   - newton-raphson
+   - limit comparison? may not be relavant
