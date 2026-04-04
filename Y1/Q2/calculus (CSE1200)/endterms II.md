@@ -1,4 +1,9 @@
+<<<<<<< Updated upstream
 # to do - limits
+=======
+# to do
+# - limits
+>>>>>>> Stashed changes
    - l'hospital (LIMITS ONLY, NOT SERIES)
 - derivatives
    - linearization
@@ -83,6 +88,11 @@
    
    
    \end{align}
-   # todo
-   - newton-raphson
-   - limit comparison? may not be relavant
+   
+# todo
+- error bound
+- newton-raphson
+- limit comparison? may not be relavant
+- double integral (rectangle and weird areas)
+- critcal points in 3d derivatives 
+   - also look at gradient vectors
