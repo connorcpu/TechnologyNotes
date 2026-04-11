@@ -91,8 +91,9 @@
    
 # todo
 - error bound
+   - taylor's theorem & taylor's inequality
 - newton-raphson
 - limit comparison? may not be relavant
-- double integral (rectangle and weird areas)
+- [X] double integral (rectangle and weird areas)
 - critcal points in 3d derivatives 
    - also look at gradient vectors

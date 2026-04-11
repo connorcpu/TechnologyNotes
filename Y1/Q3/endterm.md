@@ -1,0 +1,8 @@
+- LA (CSE1205)
+   - eigenstuff
+   - PRACTICE
+- ADS (CSE1305)
+   - trees
+   - graphs
+- IDM (CSE1505)
+   - indexes
