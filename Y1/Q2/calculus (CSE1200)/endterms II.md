@@ -45,6 +45,7 @@
 - $\ln(1+x) = \displaystyle\sum_{n=0}^\infty {(-1)^n x^{n+1} \over n+1}$
 
 - p-series: $\displaystyle\sum_{n=0}^\infty 1/n^p$ convergent for p > 1, dirvergent for p $\leq$ 1
+- $z = f_x(a,b)(x-a) + f_y(y-b) + f(a,b)$
 
 # toolkits 
 - limits
@@ -93,3 +94,4 @@
 - [X] double integral (rectangle and weird areas)
 - critcal points in 3d derivatives 
    - also look at gradient vectors
+   
