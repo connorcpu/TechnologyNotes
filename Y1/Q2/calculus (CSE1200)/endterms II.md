@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-# to do - limits
-=======
 # to do
-# - limits
->>>>>>> Stashed changes
+- limits
    - l'hospital (LIMITS ONLY, NOT SERIES)
 - derivatives
    - linearization
