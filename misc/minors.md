@@ -1,6 +1,6 @@
- aerospace
+- aerospace (would probably require moving to germany)
 - psychology
-- physics
+- physics (might not be ready for the math but then again already did quite some)
 
 # mentor
 - mentor?

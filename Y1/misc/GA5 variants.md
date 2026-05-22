@@ -1,0 +1,22 @@
+- one more GA before end of year
+- multimedia variant
+   - signal processing, like mathematics
+   - image processing, like image manipulation, recoginzing car number plates without AI, seach recognition, scene change detection, image search engine
+   - requires good calculus
+   - mandatory lab sign off
+- system variant
+   - digital systems (hardware)
+      - verilog modeling
+      - transistors -> logic gates -> decoder -> processor -> FPGA -> ASIC
+   - embedded software (firmware)
+      - C programming
+      - line follower porject
+      - finite state machines, round robin interrupts and real-time oprating systems
+   - operating systems (software)
+      - c programming 
+      - weblab-based assignments
+      - common operating systems aspects, like security multithreading and concurrency, virtual memmory
+      - labs on weblab 
+- data varient
+   - stupid
+- projectforum.tudelft.nl
