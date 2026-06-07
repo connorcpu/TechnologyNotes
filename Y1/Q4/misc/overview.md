@@ -131,6 +131,9 @@ toknow:
    - physical layer
    - data link layer
    - error detection & correction
+   - contention
+   - channel allocation
+      - CSMA/aloha/token ring ETC
    - mac sublayer
    - network layer
    - transport layer
