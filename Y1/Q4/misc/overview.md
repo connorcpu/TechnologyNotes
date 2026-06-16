@@ -1,0 +1,142 @@
+- LA
+   - status: kinda hard but doable?
+   - assesment: relearn + grasple, practice
+- ADS
+   - status: failed by 0.3x2
+   - assesment: relearn + learn red-black operation and AVL
+- IDM
+   - status: failed by 0.6, forgot cheatsheet, should be goo
+   - assesment: relearn + bring cheatsheet
+- SQT
+   - status: need to pass, otherwise study takes 4 years
+   - assesment: practise: I can't use andy currently (maybe read some book)
+- PTS
+   - status: kinda hard but i hear grasple is a waste of time, also cheatsheet :)
+   - assesment: drop grasple (maybe partially) instead do execersize sessions, get calculator, look at past exams
+- CN
+   - status: should be good?
+   - assemest: look at some self-studies (probably tested like CO), read slides
+
+
+toknow:
+- LA
+   - linear (in)dependance
+   - system of equations to linear transformation
+   - null space, column space
+   - invertibility
+   - determinants
+   - eigenvalues + eigenvectors
+   - diagonalization
+   - complex eigenvalues
+   - discrete dynamical systems
+   - inner product and orthogonality
+   - gramm-schmidt
+   - least-squares problems
+   - symetric matrices
+- ADS
+   - (amortized) time complexity
+   - sorting algorithems
+   - java iterators
+   - heap (and operations)
+   - recurrance equations
+   - red-black trees (and operations)
+   - AVL trees (and operations)
+   - 2-4 trees
+   - hash-maps
+   - graph representiations
+      - edge map
+      - adjacency list
+      - adjacency map
+      - adjacency matrix
+   - kruskal's algorithm
+   - dijkstras algorithm
+   - converting AVL with red-black
+   - what EXACTL, is load factor
+   - in-place quick-sort
+- IDM
+   - indexes
+      - sparse / dense
+      - primary / secondary(must be dense)
+      - B+ tree
+      - hash
+      - K-D tree
+   - SQL (advanced)
+   - "application programming" (JDBC & JPA)
+   - query proccesing
+      - heuristic optimization
+      - cost-based optimization
+   - transaction management
+      - ACID
+      - atomicity
+      - consistency
+      - isolation
+      - durabilty
+      - logging
+      - locking
+      - timestamping
+   - legal aspects
+      - GDPR 
+      - AI act
+      - ePrivacy
+      - digital services act
+      - anonymization
+   - relational algebra
+- SQT
+   - specification-based testing
+   - structural testing
+   - design by contract
+   - property-based testing
+   - test doubles
+   - mocks
+   - how to design for testibility
+   - automatic test generation
+   - test-driven development
+   - large tests
+   - test code quality
+   - javascript front-end testing
+- PTS
+   - conditional probability 
+   - bayes' rule
+   - PMF/PDF
+   - histogram, pdf, ecdf & distribution function
+   - distributions
+      - discrete
+         - berniouli
+         - binomial
+         - geometric
+      - continues
+         - exponential
+         - pareto
+         - normal
+            - the fucking table
+            - how to convert, non-standard to standard for the fucking table
+         - poisant
+   - expectation
+   - independence
+   - mean Vs. average
+   - estimation
+   - variance
+   - bias
+   - mean squared error
+   - joint continuous distrubition
+   - correlation
+   - sums of RV's
+   - multivariate gaussian
+   - CLT (?)
+   - likelihood function (discrete and continous)
+   - confidence intervals
+   - hypothhesis testing
+   - linear regression
+- CN
+   - physical layer
+   - data link layer
+   - error detection & correction
+   - contention
+   - channel allocation
+      - CSMA/aloha/token ring ETC
+   - mac sublayer
+   - network layer
+   - transport layer
+   - cryptography
+   - network security
+   - application layer
