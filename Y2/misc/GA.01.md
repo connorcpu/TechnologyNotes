@@ -1,0 +1,10 @@
+- software project
+- minors
+- electives
+- new curriculum
+- general info
+   - 65% percent passed BSA
+   - 37% passed all 12 courses
+   - 530 stundents started
+   - presentations
+      - SIGN THE FUCK UP
