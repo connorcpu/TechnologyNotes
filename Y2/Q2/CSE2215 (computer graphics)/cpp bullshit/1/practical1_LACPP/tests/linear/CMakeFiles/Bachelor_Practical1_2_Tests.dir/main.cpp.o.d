@@ -1,0 +1,578 @@
+tests/linear/CMakeFiles/Bachelor_Practical1_2_Tests.dir/main.cpp.o: \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/main.cpp \
+ /usr/include/stdc-predef.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/include/framework/disable_all_warnings.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_benchmark_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_benchmark.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/generated-includes/catch2/catch_user_config.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_platform.hpp \
+ /usr/include/c++/16/cstddef \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/16/pstl/pstl_config.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
+ /usr/include/c++/16/bits/version.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_context.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /usr/include/c++/16/type_traits \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_failure_exception.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_unique_name.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_counter.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
+ /usr/include/c++/16/string /usr/include/c++/16/bits/requires_hosted.h \
+ /usr/include/c++/16/bits/stringfwd.h \
+ /usr/include/c++/16/bits/memoryfwd.h \
+ /usr/include/c++/16/bits/char_traits.h \
+ /usr/include/c++/16/bits/postypes.h /usr/include/c++/16/cwchar \
+ /usr/include/wchar.h /usr/include/bits/libc-header-start.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdarg.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/c++/16/compare \
+ /usr/include/c++/16/concepts /usr/include/c++/16/bits/stl_construct.h \
+ /usr/include/c++/16/new /usr/include/c++/16/bits/exception.h \
+ /usr/include/c++/16/bits/new_except.h \
+ /usr/include/c++/16/bits/exception_defines.h \
+ /usr/include/c++/16/bits/move.h \
+ /usr/include/c++/16/bits/stl_iterator_base_types.h \
+ /usr/include/c++/16/bits/iterator_concepts.h \
+ /usr/include/c++/16/bits/ptr_traits.h \
+ /usr/include/c++/16/bits/ranges_cmp.h \
+ /usr/include/c++/16/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/16/bits/concept_check.h \
+ /usr/include/c++/16/debug/assertions.h \
+ /usr/include/c++/16/bits/allocator.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/16/bits/new_allocator.h \
+ /usr/include/c++/16/bits/new_throw.h \
+ /usr/include/c++/16/bits/cpp_type_traits.h \
+ /usr/include/c++/16/bits/localefwd.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/16/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/16/iosfwd \
+ /usr/include/c++/16/cctype /usr/include/ctype.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/c++/16/bits/ostream_insert.h \
+ /usr/include/c++/16/bits/cxxabi_forced.h \
+ /usr/include/c++/16/bits/stl_iterator.h \
+ /usr/include/c++/16/ext/type_traits.h \
+ /usr/include/c++/16/bits/stl_function.h \
+ /usr/include/c++/16/backward/binders.h \
+ /usr/include/c++/16/ext/numeric_traits.h \
+ /usr/include/c++/16/bits/stdexcept_throw.h \
+ /usr/include/c++/16/bits/stdexcept_throwfwd.h \
+ /usr/include/c++/16/bits/stl_algobase.h \
+ /usr/include/c++/16/bits/stl_pair.h /usr/include/c++/16/bits/utility.h \
+ /usr/include/c++/16/debug/debug.h \
+ /usr/include/c++/16/bits/predefined_ops.h /usr/include/c++/16/bit \
+ /usr/include/c++/16/bits/range_access.h \
+ /usr/include/c++/16/initializer_list /usr/include/c++/16/bits/erase_if.h \
+ /usr/include/c++/16/bits/basic_string.h \
+ /usr/include/c++/16/ext/alloc_traits.h \
+ /usr/include/c++/16/bits/alloc_traits.h /usr/include/c++/16/string_view \
+ /usr/include/c++/16/bits/functional_hash.h \
+ /usr/include/c++/16/bits/hash_bytes.h \
+ /usr/include/c++/16/bits/ranges_base.h \
+ /usr/include/c++/16/bits/max_size_type.h /usr/include/c++/16/numbers \
+ /usr/include/c++/16/limits /usr/include/c++/16/bits/string_view.tcc \
+ /usr/include/c++/16/ext/string_conversions.h /usr/include/c++/16/cstdlib \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/16/bits/std_abs.h \
+ /usr/include/c++/16/cstdio /usr/include/stdio.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__fpos64_t.h \
+ /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/c++/16/cerrno \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/c++/16/bits/charconv.h \
+ /usr/include/c++/16/bits/basic_string.tcc \
+ /usr/include/c++/16/bits/memory_resource.h \
+ /usr/include/c++/16/bits/uses_allocator.h \
+ /usr/include/c++/16/bits/uses_allocator_args.h /usr/include/c++/16/tuple \
+ /usr/include/c++/16/bits/invoke.h /usr/include/c++/16/bits/ranges_util.h \
+ /usr/include/c++/16/chrono /usr/include/c++/16/bits/chrono.h \
+ /usr/include/c++/16/ratio /usr/include/c++/16/cstdint \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/c++/16/ctime \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h \
+ /usr/include/c++/16/bits/parse_numbers.h \
+ /usr/include/c++/16/bits/stl_algo.h \
+ /usr/include/c++/16/bits/algorithmfwd.h \
+ /usr/include/c++/16/bits/stl_heap.h \
+ /usr/include/c++/16/bits/uniform_int_dist.h \
+ /usr/include/c++/16/bits/stl_tempbuf.h /usr/include/c++/16/sstream \
+ /usr/include/c++/16/istream /usr/include/c++/16/ios \
+ /usr/include/c++/16/exception /usr/include/c++/16/bits/exception_ptr.h \
+ /usr/include/c++/16/bits/cxxabi_init_exception.h \
+ /usr/include/c++/16/typeinfo /usr/include/c++/16/bits/nested_exception.h \
+ /usr/include/c++/16/bits/ios_base.h /usr/include/c++/16/ext/atomicity.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/linux/sched/types.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/bits/setjmp.h \
+ /usr/include/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/atomic_word.h \
+ /usr/include/sys/single_threaded.h \
+ /usr/include/c++/16/bits/locale_classes.h \
+ /usr/include/c++/16/bits/functexcept.h \
+ /usr/include/c++/16/bits/locale_classes.tcc \
+ /usr/include/c++/16/system_error \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/error_constants.h \
+ /usr/include/c++/16/stdexcept \
+ /usr/include/c++/16/bits/stdexcept_except.h \
+ /usr/include/c++/16/streambuf /usr/include/c++/16/bits/streambuf.tcc \
+ /usr/include/c++/16/bits/basic_ios.h \
+ /usr/include/c++/16/bits/locale_facets.h /usr/include/c++/16/cwctype \
+ /usr/include/wctype.h /usr/include/bits/wctype-wchar.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_base.h \
+ /usr/include/c++/16/bits/streambuf_iterator.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/ctype_inline.h \
+ /usr/include/c++/16/bits/locale_facets.tcc \
+ /usr/include/c++/16/bits/basic_ios.tcc /usr/include/c++/16/ostream \
+ /usr/include/c++/16/bits/ostream.h \
+ /usr/include/c++/16/bits/ostream_print.h \
+ /usr/include/c++/16/bits/ostream.tcc \
+ /usr/include/c++/16/bits/istream.tcc \
+ /usr/include/c++/16/bits/sstream.tcc /usr/include/c++/16/vector \
+ /usr/include/c++/16/bits/stl_uninitialized.h \
+ /usr/include/c++/16/bits/stl_vector.h \
+ /usr/include/c++/16/bits/stl_bvector.h \
+ /usr/include/c++/16/bits/vector.tcc \
+ /usr/include/c++/16/bits/shared_ptr.h \
+ /usr/include/c++/16/bits/shared_ptr_base.h \
+ /usr/include/c++/16/bits/allocated_ptr.h \
+ /usr/include/c++/16/bits/refwrap.h /usr/include/c++/16/bits/unique_ptr.h \
+ /usr/include/c++/16/ext/aligned_buffer.h \
+ /usr/include/c++/16/ext/concurrence.h /usr/include/c++/16/bits/align.h \
+ /usr/include/c++/16/bits/chrono_io.h /usr/include/c++/16/format \
+ /usr/include/c++/16/array /usr/include/c++/16/charconv \
+ /usr/include/c++/16/locale \
+ /usr/include/c++/16/bits/locale_facets_nonio.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/time_members.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/16/bits/codecvt.h \
+ /usr/include/c++/16/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/16/bits/locale_conv.h /usr/include/c++/16/optional \
+ /usr/include/c++/16/bits/enable_special_members.h \
+ /usr/include/c++/16/span /usr/include/c++/16/bits/monostate.h \
+ /usr/include/c++/16/bits/formatfwd.h \
+ /usr/include/c++/16/bits/ranges_algobase.h \
+ /usr/include/c++/16/bits/unicode.h \
+ /usr/include/c++/16/bits/unicode-data.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /usr/include/c++/16/cassert /usr/include/assert.h \
+ /usr/include/c++/16/cstring /usr/include/string.h /usr/include/strings.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_result_type.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_clock.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_noncopyable.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_estimate.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_environment.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_execution_plan.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_benchmark_function.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_chronometer.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_optimizer.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_meta.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_repeat.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_run_for_at_least.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_measure.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_complete_invoke.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_timing.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_estimate_clock.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_stats.hpp \
+ /usr/include/c++/16/algorithm /usr/include/c++/16/bits/ranges_algo.h \
+ /usr/include/c++/16/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/16/pstl/execution_defs.h /usr/include/c++/16/cmath \
+ /usr/include/math.h /usr/include/bits/math-vector.h \
+ /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/16/bits/specfun.h \
+ /usr/include/c++/16/tr1/gamma.tcc \
+ /usr/include/c++/16/tr1/special_function_util.h \
+ /usr/include/c++/16/tr1/bessel_function.tcc \
+ /usr/include/c++/16/tr1/beta_function.tcc \
+ /usr/include/c++/16/tr1/ell_integral.tcc \
+ /usr/include/c++/16/tr1/exp_integral.tcc \
+ /usr/include/c++/16/tr1/hypergeometric.tcc \
+ /usr/include/c++/16/tr1/legendre_function.tcc \
+ /usr/include/c++/16/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/16/tr1/poly_hermite.tcc \
+ /usr/include/c++/16/tr1/poly_laguerre.tcc \
+ /usr/include/c++/16/tr1/riemann_zeta.tcc \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/detail/catch_analyse.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_sample_analysis.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/benchmark/catch_constructor.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_approx.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_tostring.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_wchar.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_void_type.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_enum_values_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_assertion_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_source_line_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_assertion_result.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_lazy_expr.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_case_sensitive.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_config.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_test_spec.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_optional.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_random_seed_generation.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_reporter_spec_parser.hpp \
+ /usr/include/c++/16/map /usr/include/c++/16/bits/stl_tree.h \
+ /usr/include/c++/16/bits/node_handle.h \
+ /usr/include/c++/16/bits/stl_map.h \
+ /usr/include/c++/16/bits/stl_multimap.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_get_random_seed.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_message.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_prefix_messages.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_stream_end_stop.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_message_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_section_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_totals.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_session.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_commandline.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_clara.hpp \
+ /usr/include/c++/16/memory \
+ /usr/include/c++/16/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/16/bits/shared_ptr_atomic.h \
+ /usr/include/c++/16/bits/atomic_base.h \
+ /usr/include/c++/16/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/16/bits/atomic_wait.h \
+ /usr/include/c++/16/backward/auto_ptr.h \
+ /usr/include/c++/16/bits/ranges_uninitialized.h \
+ /usr/include/c++/16/pstl/glue_memory_defs.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_tag_alias.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_tag_alias_autoregistrar.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_template_test_macros.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_test_macros.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_macro_impl.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_assertion_handler.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_decomposer.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_compare_traits.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_logical_traits.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_preprocessor_internal_stringify.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_section.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_static_analysis_support.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_timer.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_test_invoker.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_template_test_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_preprocessor.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_test_case_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_translate_exception.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_exception.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_version.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/catch_version_macros.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generators_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generator_exception.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generators.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_generatortracker.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generators_adapters.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generators_random.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_random_number_generator.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_uniform_integer_distribution.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_random_integer_helpers.hpp \
+ /usr/include/c++/16/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_uniform_floating_point_distribution.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_random_floating_point_helpers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_polyfills.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/generators/catch_generators_range.hpp \
+ /usr/include/c++/16/iterator /usr/include/c++/16/bits/stream_iterator.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_reporter.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_run_info.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_reporter_factory.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_tag_alias_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_android_logwrite.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_config_uncaught_exceptions.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_console_colour.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_console_width.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_container_nonmembers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_debug_console.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_debugger.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_enforce.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_enum_values_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_errno_guard.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_exception_translator_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_fatal_condition_handler.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_floating_point_helpers.hpp \
+ /usr/include/c++/16/utility /usr/include/c++/16/bits/stl_relops.h \
+ /usr/include/c++/16/bits/intcmp.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_getenv.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_is_permutation.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_istream.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_jsonwriter.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_leak_detector.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_list.hpp \
+ /usr/include/c++/16/set /usr/include/c++/16/bits/stl_set.h \
+ /usr/include/c++/16/bits/stl_multiset.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_output_redirect.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_parse_numbers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_reporter_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_run_context.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_case_tracker.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_sharding.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_singletons.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_startup_exception_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_stdstreams.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_string_manip.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_tag_alias_registry.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_case_info_hasher.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_case_registry_impl.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_test_spec_parser.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_textflow.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_to_string.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_uncaught_exceptions.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/internal/catch_xmlwriter.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/internal/catch_matchers_impl.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_container_properties.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_templated.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_contains.hpp \
+ /usr/include/c++/16/functional /usr/include/c++/16/bits/std_function.h \
+ /usr/include/c++/16/unordered_map \
+ /usr/include/c++/16/bits/unordered_map.h \
+ /usr/include/c++/16/bits/hashtable.h \
+ /usr/include/c++/16/bits/hashtable_policy.h \
+ /usr/include/c++/16/bits/binders.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_exception.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_floating_point.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_predicate.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_quantifiers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_range_equals.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_string.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/matchers/catch_matchers_vector.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporters_all.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_automake.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_streaming_base.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_common_base.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_compact.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_console.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_cumulative_base.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_event_listener.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_helpers.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_json.hpp \
+ /usr/include/c++/16/stack /usr/include/c++/16/deque \
+ /usr/include/c++/16/bits/stl_deque.h /usr/include/c++/16/bits/deque.tcc \
+ /usr/include/c++/16/bits/stl_stack.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_junit.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_multi.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_registrars.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_sonarqube.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_tap.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_teamcity.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/catch2/src/catch2/../catch2/reporters/catch_reporter_xml.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/vector_matrix_tests.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/helpers.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/../../src/linear/linear.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/vec3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_bool3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/type_vec3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/qualifier.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/../simd/platform.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/type_vec3.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/compute_vector_relational.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/compute_vector_decl.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../detail/_vectorize.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_bool3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_float3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_float3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_double3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_double3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_int3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_int3_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../ext/scalar_int_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../ext/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_uint3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/vector_uint3_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/matrix_transform_2d.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/../mat3x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/matrix_double3x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/type_mat3x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/type_mat3x3.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../matrix.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../vec2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_bool2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_vec2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_vec2.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_bool2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_float2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_float2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_double2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_double2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_int2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_int2_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_uint2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_uint2_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../vec4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_bool4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_vec4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_vec4.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_bool4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_float4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_float4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_double4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_double4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_int4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_int4_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_uint4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/vector_uint4_sized.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat2x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x2.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat2x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x3.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat2x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat2x4.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat3x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double3x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat3x2.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float3x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat3x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double3x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat3x4.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float3x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat4x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x2.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x2.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat4x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x3.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../mat4x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/type_mat4x4.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../geometric.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/func_geometric.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../exponential.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/type_vec1.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/type_vec1.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/func_exponential.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/../vector_relational.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/../detail/func_vector_relational.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../common.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/_fixes.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/func_common.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/compute_common.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/../detail/../detail/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x4.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/../detail/../detail/func_matrix.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/matrix_double3x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/matrix_float3x3.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/.././ext/matrix_float3x3_precision.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/matrix_transform_2d.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/../trigonometric.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtx/../detail/func_trigonometric.inl \
+ /usr/include/c++/16/random /usr/include/c++/16/bits/random.h \
+ /usr/include/c++/16/x86_64-pc-linux-gnu/bits/opt_random.h \
+ /usr/include/c++/16/bits/random.tcc /usr/include/c++/16/numeric \
+ /usr/include/c++/16/bits/stl_numeric.h \
+ /usr/include/c++/16/pstl/glue_numeric_defs.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/matrix_transform.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_projection.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/../gtc/constants.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/../gtc/../ext/../detail/setup.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/../gtc/constants.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_projection.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_clip_space.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_clip_space.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_transform.hpp \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/../ext/matrix_transform.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/framework/third_party/glm/glm/gtc/matrix_transform.inl \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/nGonOrder_tests.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/solid_tests.h \
+ /media/files/TechnologyNotes/Y2/Q2/CSE2215\ (computer\ graphics)/cpp\ bullshit/1/practical1_LACPP/tests/linear/nGonArea_tests.h

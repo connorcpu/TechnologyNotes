@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/tests
+# Build directory: /media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("cpp")
+subdirs("linear")

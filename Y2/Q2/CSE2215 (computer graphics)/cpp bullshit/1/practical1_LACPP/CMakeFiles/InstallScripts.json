@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/catch2/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/catch2/src/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/glm/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/glm/glm/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/fmt/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/tinyobjloader/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/glad/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/glfw3/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/glfw3/src/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/imgui/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/stb/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/nativefiledialog/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/framework/third_party/toml/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/tests/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/tests/cpp/cmake_install.cmake",
+		"/media/files/TechnologyNotes/Y2/Q2/CSE2215 (computer graphics)/cpp bullshit/1/practical1_LACPP/tests/linear/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
